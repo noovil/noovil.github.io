@@ -159,6 +159,10 @@ a {
 .fs-40 {
   font-size: 40px; }
 
+.text-align-left{
+  text-align: left;
+}
+
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -240,10 +244,9 @@ a {
   border-top-right-radius: 5px;
   margin-bottom: 0;
   overflow: hidden;
-  min-height: 500px; }
+  }
   @media (min-width: 1024px) {
-    .jumbotron {
-      min-height: 80vh; } }
+     }
   .jumbotron .container {
     position: relative; }
   .jumbotron:before {
@@ -488,10 +491,17 @@ footer {
     flex-direction: column; } }
 
 .bio{
-  width:30%;
-  margin-left: 5em;
+  padding-top: 50px;
+  text-align: center;
+  margin: auto;
+  width: 380px;
 }
 
+.profile-pic {
+  width:350px;
+  height:350px;
+  text-align: center;
+}
 .brand {
   color: #f7f8f9;
   text-align: center;
